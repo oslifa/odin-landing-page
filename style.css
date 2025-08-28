@@ -1,0 +1,49 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    flex: 0 1 auto;
+}
+
+.header.section {
+    background-color: yellow;
+}
+
+.header.container {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro.container {
+    display: flex;
+    justify-content: center;
+}
